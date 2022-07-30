@@ -1,0 +1,26 @@
+:root{
+    --raisin_black: rgb(38, 35, 34);
+    --liver_organ: rgb(99, 55, 44);
+    --copper_crayola: rgb(201, 125, 96);
+    --melon: rgb(255, 188, 181);
+    --almond: rgb(242, 229, 215);
+}
+html, body {
+    margin: 0%;
+    height: 100%;
+}
+
+body {
+    font-family: monospace;
+    color: var(--raisin_black);
+    background-color: rgb(242, 229, 215);
+
+}
+
+.index-title {
+    background-color: var(--copper_crayola);
+    width: 100%;
+    padding:1% 0;
+    text-align: center;
+    color: white;
+}
