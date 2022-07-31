@@ -18,9 +18,21 @@ body {
 }
 
 .index-title {
+    font-size: large;
     background-color: var(--copper_crayola);
     width: 100%;
     padding:1% 0;
     text-align: center;
     color: white;
+}
+
+a {
+    color: var(--raisin_black);
+    font-size: large;
+    text-decoration: none;
+}
+
+a:hover{
+    color: var(--liver_organ) ;
+    text-decoration: underline;
 }
